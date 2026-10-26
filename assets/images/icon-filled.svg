@@ -1,0 +1,30 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="muiSyncGrad" x1="120" y1="130" x2="480" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ED711E" />
+      <stop offset="50%" stop-color="#EF3E4C" />
+      <stop offset="100%" stop-color="#E9295C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fluid Modern MuiSync "M" Waveform -->
+  <path d="M 130 435
+           L 130 200
+           C 130 140, 185 140, 215 185
+           L 300 315
+           L 385 185
+           C 415 140, 470 140, 470 200
+           L 470 435"
+        stroke="url(#muiSyncGrad)" 
+        stroke-width="54" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none" />
+
+  <!-- Center Soundwave Sync Node (Audio Frequency Pulse) -->
+  <circle cx="300" cy="180" r="26" fill="url(#muiSyncGrad)" />
+
+  <!-- Harmonized Equalizer Waves inside the legs -->
+  <rect x="202" y="275" width="36" height="110" rx="18" fill="url(#muiSyncGrad)" />
+  <rect x="362" y="275" width="36" height="110" rx="18" fill="url(#muiSyncGrad)" />
+</svg>

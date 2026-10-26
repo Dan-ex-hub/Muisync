@@ -1,0 +1,8 @@
+export const MUSIC_SERVICE = {
+  AMAZONMUSIC: 'AMAZONMUSIC',
+  APPLEMUSIC: 'APPLEMUSIC',
+  SPOTIFY: 'SPOTIFY',
+  YOUTUBEMUSIC: 'YOUTUBEMUSIC'
+} as const;
+
+export type MusicService = (typeof MUSIC_SERVICE)[keyof typeof MUSIC_SERVICE];

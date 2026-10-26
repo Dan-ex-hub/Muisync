@@ -1,0 +1,10 @@
+# Local-only file (not part of upstream SynQ).
+# pnpm 10 blocks dependency lifecycle scripts by default, which prevented
+# sharp / @swc/core / lmdb / esbuild from downloading their native binaries
+# and broke `pnpm build`. This re-enables builds for just those packages.
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
+  - lmdb
+  - msgpackr-extract
+  - sharp

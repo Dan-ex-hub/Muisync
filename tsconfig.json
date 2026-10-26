@@ -1,0 +1,14 @@
+{
+  "extends": "plasmo/templates/tsconfig.base",
+  "exclude": ["node_modules", "./src/types/ReactBeautifulDnd.d.ts"],
+  "include": [".plasmo/index.d.ts", "./**/*.ts", "./**/*.tsx"],
+  "compilerOptions": {
+    "paths": {
+      "~*": ["./src/*"],
+      "@synq/react-beautiful-dnd": ["./src/types/ReactBeautifulDnd.d.ts"],
+      "spotify-web-playback-sdk": ["@types/spotify-web-playback-sdk"]
+    },
+    "baseUrl": ".",
+    "strict": true
+  }
+}
